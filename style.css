@@ -1,0 +1,318 @@
+body{
+    background-color: #FFF3DA;
+    justify-content: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+  background-color: #333;   
+  text-align: center;
+  margin-bottom: 2rem;
+}
+header a{
+  color: white;
+}
+li h3 {
+  font-size: 1.4rem;
+}
+li h4{
+  font-size: 1.3rem;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+/* NavBar */
+.navbar{
+    background-color: #BEADFA;
+}
+
+.nav-home, .navbar-nav > li{
+    padding-right:20px;
+  }
+
+  /* Introduction */
+  .intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #DFCCFB;
+    padding-top: 120px;
+  }
+
+  
+  .para{
+    margin: auto;
+    width: 700px;
+    flex-basis: 100px;
+    line-height: 2;
+    padding-bottom: 40px;
+    font-size: 20px;
+  }
+
+  #brand{
+    width: 250px;
+    padding-bottom: 20px;
+  }
+
+
+/* carousel */
+.slide{
+  margin: auto;
+
+  width: 80%;
+  
+}
+.slide-txt{
+  color: #F5F5DC;
+}
+.carousel-item > img{
+  height: 1ren;
+}
+/* Weather */
+.temp{
+  text-align: right;
+  margin-top: 0;
+  margin-right: 5%;
+  /* padding-top: 10px; */
+  line-height: 0;
+  color: black;     
+}
+#temperature{
+  margin-top: 0;
+}
+#weatherIcon{
+ align-content: right;
+ margin-bottom: 0;
+  margin-left:87%;
+  padding: 0;
+}
+/* Buttons */
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.bton{
+
+  flex-direction: row;
+  outline: none;
+  border: 0;
+  font-size: 1.5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 14;
+  font-weight: 900;
+  color: snow;
+  
+  /* text-shadow: 3px 0 #DBEDF3; */
+  border-radius: 15px;
+  display: inline-block;
+  width: 275px;
+  height: 200px;
+  margin: 10px;
+  background-color: grey;
+  
+}
+.bton:hover{
+color:  #060013;
+}
+
+/* Images */
+/* Must Visit */
+
+.agra{
+  background-image: url(./Images/agra\ fort\ \(2\).jpg);
+}
+.indiaGate{
+  background-image: url(./Images/india\ gate.jpg);
+}
+.rishikesh{
+  background-image: url(Images/Rishikesh3\ \(1\).jpg);
+ }
+/* North */
+.ladakh{
+  background-image: url(./States/Ladakh/Images/ladakh.jpg);
+}
+.jammu{
+  background-image: url(./States/Jammu/Images/jammu.jpg);
+}
+.himachal{
+  background-image: url(./States/Himachal-pradesh/Images/himachal\ pradesh.jpg);
+}
+.punjab{
+  background-image: url(./States/Punjab/Images/punjab.jpg);
+}
+.haryana{
+  background-image: url(./States/Haryana/Images/haryana.jpg);
+}
+.rajasthan{
+  background-image: url(./States/Rajasthan/Images/rajasthan.jpg);
+}
+/* Central */
+.del{
+  background-image: url(./States/Delhi/Images/delhi.jpg);
+}
+.Uttarakhand{
+  background-image: url(./States/Uttarakhand/Images/uk.jpg);
+}
+
+.up{
+  background-image: url(./States/UP/Images/up.jpg);
+}
+.chhattisgarh{
+  background-image: url(./States/Chhattisgarh/Images/chhattisgarh.jpg);
+}
+.mp{
+  background-image: url(./States/MadhyaPradesh/Images/madhyaPradeshHomePage.jpg);
+}
+
+
+/* North East */
+.bihar{
+  background-image: url(./States/Bihar/Images/bihar-btn.jpg);
+}
+.west-bengal{
+  background-image: url(./States/West-bengal/Images/west\ bengal.jpg);
+}
+.odisha{
+  background-image: url(./States/Odisha/Images/odisha.jpg);
+}
+.jharkhand{
+  background-image: url(./States/Jharkhand/Images/jharkhand.jpg);
+}
+
+/* West */
+.gujarat{
+  background-image: url(./States/Gujarat/Images/gujarat.jpg);
+}
+.maharashtra{
+  background-image: url(./States/Maharashtra/Images/maharashtra.jpg);
+}
+.goa{
+  background-image: url(./States/Goa/Images/goa.jpg);
+}
+/* South States Images */
+.ap{
+  background-image: url(./States/AP/Images/andhra\ pradesh\ \(5\).jpg);
+}
+.karnataka{
+  background-image: url(./States/Karnataka/Images/karnataka.jpg);
+}
+.tamil{
+  background-image: url(./States/TamilNadu/Images/tamil.jpg);
+}
+.kerala{
+  background-image: url(./States/Kerala/Images/kerala.jpg);
+}
+.telangana{
+  background-image: url(./States/Telangana/Images/telanganaHomePage.jpg);
+}
+
+/* Eastern states images */
+
+.meghalaya{
+  background-image: url(./States/Meghalaya/Images/meghalaya.jpg);
+}
+.assam{
+  background-image: url(./States/Assam/Images/assam.jpg);
+}
+.manipur{
+  background-image: url(./States/Manipur/Images/manipur.jpg);
+}
+.sikkim{
+  background-image: url(./States/Sikkim/Images/sikkim.jpg);
+}
+.arunachal{
+  background-image: url(./States/Arunachal-Pradesh/Images/arunachal\ pradesh.jpg);
+}
+.tripura{
+  background-image: url(./States/Tripura/Images/tripura.jpg);
+}
+.nagaland{
+  background-image: url(./States/Nagaland/Images/nagaland.jpg);
+}
+
+
+/* Footer */
+footer{
+  background-color: #D0BFFF;
+  margin-top:5rem ;
+}
+.container{
+  /* color: white; */
+  padding-top: 4rem;
+  display: grid;
+  line-height: 1.6;
+  letter-spacing: 1.1px;
+
+  grid-template-columns: auto auto auto auto auto;
+}
+
+hr{
+  border: 2px solid black;
+  size: 5px;
+  width: 7rem;
+}
+a:hover{
+  color: grey;
+  
+}
+ul{
+  list-style: none;
+}
+
+/* States */
+
+/* States CSS */
+.st-intro{
+  display: flex;  
+  justify-content: center;
+  padding: 0 0 3rem 6rem;
+  gap: 50px;
+  
+}
+.st-text{
+  width: 30rem;
+  /* height: 200px; */
+}
+.st-description{
+   margin-top: auto;
+}
+
+.rest{
+  margin: auto;
+  width: 80%;
+}
+
+.hotels{
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+margin: 0;
+}
+.mainNav{
+  margin: 2rem auto;
+  border-radius: 1rem;
+  width: 80%;
+  opacity: .8;
+}
+
+/* Delhi */
+.delhi{
+  margin:  10rem;
+}
+
+/* Kedarnath */
+.kedar{
+  margin: 5rem;
+}
